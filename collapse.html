@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> Demonstration on collapse</title>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<h1 class="text-danger text-center">Demonstration on collapse</h1>
+<div class="container">
+ <div class="jumbotron">
+  <div class="row">
+    <div class="col-md-2">
+	  <button class="btn btn-danger" data-toggle="collapse" data-target="#1">How to collapse</button>
+	   <div class="text-success" id="1">Hi am collapsed here</div>
+	   <br><br>
+	   <div class="panel panel-warning">
+	    <div class="panel-heading panel-info "><a href="#2" data-toggle="collapse">Engineering</a></div>
+		<div class="panel-body text-danger collapse" id="2">Innovation and research on technology</div>
+	    <div class="panel-footer text-danger">Developing amazing machines</div>
+	   </div>
+	   <div class="panel panel-warning">
+	    <div class="panel-heading panel-info"><a href="#3" data-toggle="collapse">Medical science</div>
+		<div class="panel-body text-danger collapse" id="3">Science on species Body</div>
+		<div class="panel-footer text-danger">Improving diseases</div>
+	   </div>
+	</div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
